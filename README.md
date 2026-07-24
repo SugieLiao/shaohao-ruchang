@@ -1,2 +1,2 @@
-# shaohao-ruchuang
+# shaohao-ruchang
 少耗如常宫：投资研究、交易、组合、心态与系统演化的长期知识库。
