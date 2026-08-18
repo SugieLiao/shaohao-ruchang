@@ -7,6 +7,55 @@
 
 ---
 
+## 术语表（Glossary）
+
+> 报告正文涉及的英文缩写速查。行业术语与技术指标给出英文全称与简单解释；项目内部编码附后。
+
+### 行业术语
+
+| 缩写 | 英文全称 | 解释 |
+|---|---|---|
+| HBM | High Bandwidth Memory | 高带宽内存：垂直堆叠 DRAM 晶粒并用 TSV 互连的存储器，AI 算力核心内存（本报告主题 Node） |
+| DRAM | Dynamic Random Access Memory | 动态随机存取存储器：易失性存储器，需周期性刷新；HBM 的存储本体 |
+| TSV | Through-Silicon Via | 硅通孔：贯穿硅片的垂直金属导通孔，HBM 层间互连的核心工艺 |
+| BOM | Bill of Materials | 物料清单：产品构成的组件/材料清单；本报告用 BOM 拆解 HBM 价值结构 |
+| KGSD | Known Good Stacked Die | 已知良品堆叠晶粒：堆叠前逐颗测试确保良品再堆叠的 HBM 特有测试环节 |
+| FT | Final Test | 最终测试：堆叠/封装完成后的成品测试 |
+| ALD | Atomic Layer Deposition | 原子层沉积：逐原子层沉积薄膜的技术，用于前驱体/高k介电沉积，厚度与纯度控制最精确 |
+| CMP | Chemical Mechanical Polishing | 化学机械抛光：平坦化工艺，TSV 铜填充后去除多余金属并平整表面 |
+| ABF | Ajinomoto Build-up Film | 味之素积层膜：味之素垄断的高端封装载板绝缘膜材料 |
+| SOD | Spin-On Dielectric | 旋涂介电材料：旋涂法涂布的介电绝缘材料，用于先进封装绝缘层 |
+| μbump | Micro Bump | 微凸点：晶粒间微型焊点，现役 HBM 键合方式（HBM4 转向混合键合） |
+| CoWoS | Chip-on-Wafer-on-Substrate | 台积电 2.5D 先进封装：将 HBM 与 GPU 并排置于硅中介层再封装到基板 |
+| GPU | Graphics Processing Unit | 图形处理器：AI 算力的计算核心，HBM 的下游需求方 |
+| AI | Artificial Intelligence | 人工智能 |
+| GDDR | Graphics Double Data Rate | 图形双倍数据率显存：传统 GPU 显存方案，被 HBM 虹吸的受损方 |
+| TGV | Through Glass Via | 玻璃通孔：玻璃基板上的垂直互连，宫内关联研究主题（玻璃基板替代路线） |
+| DSP | Digital Signal Processor | 数字信号处理器（光模块 BOM 原型举例：超重要组件） |
+| TIA | Transimpedance Amplifier | 跨阻放大器（光模块 BOM 原型举例：重要组件） |
+| HBM2E / HBM3E / HBM4 | HBM Gen.2 Enhanced / Gen.3 Enhanced / Gen.4 | HBM 代际代号：E=Enhanced 增强版；代际越高堆叠层数、带宽与互连要求越高（12 层→16 层） |
+
+### 技术指标（Step 8 交易面用）
+
+| 缩写 | 英文全称 | 解释 |
+|---|---|---|
+| MACD | Moving Average Convergence/Divergence | 指数平滑异同移动平均线：趋势类指标，金叉/死叉判断趋势拐点 |
+| KDJ | Stochastic Oscillator（KDJ 为中国化变体） | 随机指标：超买超卖摆动指标，J 值 >100 或 <0 为极端超买/超卖 |
+| RSI | Relative Strength Index | 相对强弱指标：0-100 摆动，>70 超买、<30 超卖 |
+| PE | Price-to-Earnings Ratio | 市盈率：股价/每股收益，估值指标 |
+
+### 项目内部编码
+
+| 编码 | 含义 | 解释 |
+|---|---|---|
+| NODE-XXX | Node ID | 研究路由表的最小研究单位编号（本报告 NODE-001） |
+| EVD-XXX | Evidence ID | 证据编号，对应第五节证据索引（EVD-001~019） |
+| REL-XXX | Relation ID | Node 关系索引编号（本报告 HBM↔Glass Bridge/TGV 关系待建） |
+| KA-XXX | Knowledge Asset | 宫内知识资产编号（SHRC-KA-014 即研究路由表） |
+| SHRC | 少耗如常宫 | 本知识库项目前缀 |
+
+---
+
 ## 0. Node 档案
 
 | 字段 | 内容 |
