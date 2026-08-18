@@ -21,6 +21,7 @@
 | 鲲鹏 | Kunpeng | 华为服务器 CPU |
 | MatrixLink / 灵衢 UB | Unified Bus | 华为自研超节点互联协议/总线（灵衢 2.0 已向行业开放，参与工信部统一国产互联标准） |
 | HBM | High Bandwidth Memory | 高带宽内存，AI 芯片配套存储（见 NODE-001） |
+| Die | 裸片 | 晶圆切割后的单颗未封装芯片；HBM 即多层 DRAM Die 垂直堆叠，昇腾 950 Die 与 HiZQ 合封 |
 | HiZQ | — | 华为自研存储颗粒（等效 HBM3 级），与昇腾 950 Die 在先进封装厂合封 |
 | MCM / Chiplet | 多芯片封装 | 多 Die 封装成一颗芯片，昇腾 910C 即双 910B 芯粒合封 |
 | CoWoS / TSV | — | 2.5D 先进封装工艺（TSV 见 NODE-001） |
