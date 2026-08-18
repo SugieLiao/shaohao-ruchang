@@ -30,6 +30,7 @@
 | TEOS | Tetraethyl Orthosilicate | 正硅酸乙酯：最常见的硅基前驱体（氧化硅沉积），通用/低毛利品类 |
 | ppb | Parts Per Billion | 十亿分之一：前驱体纯度控制单位（杂质须控制在亚 ppb 级） |
 | SiC / GaN | Silicon Carbide / Gallium Nitride | 碳化硅/氮化镓：功率半导体，外延用高纯前驱体第二增长曲线 |
+| SOD | Spin-On Dielectrics | 旋涂介电材料：旋涂涂布成膜的介电介质（平坦化/填充），先进封装配套，天承科技等（NODE-001 报告已覆盖） |
 | 5N / 6N / 7N | 99.999% / 99.9999% / 99.99999% | 纯度等级：电子级高纯（5N 铪、6N 精馏、7N 钼前驱体） |
 
 ### 技术指标（Step 8 交易面用）
