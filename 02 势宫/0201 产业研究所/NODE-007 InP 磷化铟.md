@@ -6,6 +6,24 @@
 
 ---
 
+## 实物速览（配图）
+
+> 本节为**直观认识**服务——看实物理解产品形态、结构与工作环境。图注均标注来源，仅作研究参考；技术关系与传导路径仍以正文 Mermaid 图与表格为准。
+
+![Coherent 6英寸InP晶圆实拍](assets/node-007-inp-wafer-6inch.jpg)
+
+*图 1｜**产品本体**：Coherent 官方资料中的 6 英寸 InP 晶圆实物（戴手套手持），表面已完成光刻、划出激光器/调制器芯片管芯阵列——对应 Node 中"InP 衬底→光芯片"的产业环节，也直观展示了 InP 从 3/4 英寸向 6 英寸大尺寸升级的趋势。来源：Coherent Corp.，SEC 8-K 文件附件《Analyst Briefing at OFC 2024》第 35 页（2024 年 3 月），Credit: Coherent Corp.。*
+
+![InP光芯片管芯显微图（EML/CW激光器/探测器）](assets/node-007-inp-chip-dies.jpg)
+
+*图 2｜**结构示意**：InP 光芯片管芯显微图——上为 100G/200G EML（电吸收调制激光器）管芯，中为 CW 连续波激光器管芯，下为 InP 光电探测器阵列，即 Node 中 800G/1.6T 光模块所用的三类核心 InP 器件形态。来源：Coherent Corp.，SEC 8-K 文件附件《Analyst Briefing at OFC 2024》第 32 页（2024 年 3 月），Credit: Coherent Corp.。*
+
+![InP晶圆厂洁净室（光刻工序）](assets/node-007-inp-fab-cleanroom.jpg)
+
+*图 3｜**工作环境**：Coherent 位于加州 Fremont 的 InP 晶圆厂洁净室实拍，操作员身着防尘服在黄色安全光下的光刻设备旁作业——对应 Node 中 InP 衬底加工为光芯片的制造环境（InP 产线至今以 4/6 英寸小产线为主，与硅基 12 英寸大厂形成鲜明对比）。来源：Coherent Corp.，SEC 8-K 文件附件《Analyst Briefing at OFC 2024》第 32 页（2024 年 3 月），Credit: Coherent Corp.。*
+
+---
+
 ## 术语表
 
 ### 行业术语

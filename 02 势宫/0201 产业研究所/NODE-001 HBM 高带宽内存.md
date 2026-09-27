@@ -7,6 +7,24 @@
 
 ---
 
+## 实物速览（配图）
+
+> 本节为**直观认识**服务——看实物理解产品形态、结构与工作环境。图注均标注来源，仅作研究参考；技术关系与传导路径仍以正文 Mermaid 图与表格为准。
+
+![SK hynix 36GB HBM3E 12 层堆叠产品实物](assets/node-001-hbm3e-36gb-package.jpg)
+
+*图 1｜**产品本体**：SK hynix 官方产品照，展示 36GB HBM3E（12 层堆叠）成品封装——左侧为印有「SK hynix / 36GB / HBM3E」的模组正面，右侧与右下角翻转展示的是金色基板面（BGA 焊球侧）。对应 Node 中「HBM 成品形态与容量代际（8Hi 24GB → 12Hi 36GB）」环节，可直观看到 HBM 并非裸 DRAM 颗粒，而是「DRAM 堆叠 + 逻辑基die + 封装基板」的整体模组。来源：SK hynix 全球新闻中心《SK hynix Begins Volume Production of the World's First 12-Layer HBM3E》，2024-09-26（Credit: SK hynix Inc.）*
+
+![HBM3 堆叠结构剖面示意（TSV / μBump / 逻辑die / 中介层）](assets/node-001-hbm3-tsv-stack-structure.jpg)
+
+*图 2｜**结构示意**：SK hynix 官方 HBM3 产品资料图，把 HBM 的三维堆叠结构完整剖开：顶部为多层 DRAM die 垂直堆叠，层间以 **TSV（硅通孔）+ μBump（微凸块）** 互联，堆叠底部是 **Logic Die（逻辑基die）**，再向下经 **Interposer（中介层）** 与 **SoC** 相连，最后落在 **Package Substrate**。图中标注「Over 105,000 TSV interconnects per die」，直接对应 Node 中「TSV 互联密度 / 堆叠层数与带宽的关系」环节，是理解 HBM 为何能突破内存带宽瓶颈的关键结构图。来源：SK hynix 官方产品资料《HBM3 – The Ultimate DRAM: High Bandwidth Memory 3》（PDF 第 2 页），2023-10-06（Credit: SK hynix Inc.）*
+
+![AMD Instinct MI300X 模组：中介层上 8 颗 HBM3 与 GPU 共封装](assets/node-001-mi300x-hbm-interposer-module.jpg)
+
+*图 3｜**系统集成 / 模组实物**：AMD Instinct MI300X OAM 模组官方产品照（下方为去除散热器的模组本体，上方为带散热器的整卡）。中央白色框内是中介层合封区域：中间 4 颗为 GPU 计算 die，两侧成组排列的蓝／青／绿色方块即 **8 颗 HBM3 堆叠**，环绕排布在高密度模组基板上，基板外圈为供电与外围元件。对应 Node 中「HBM 与 GPU 通过中介层共封装、由 GPU 侧统一采买 HBM 产能」的下游环节——是 HBM 真实落地形态（板载 HBM 的 GPU 基板）的直观证据。来源：AMD 官网 Instinct MI300X 产品页，图片 2325906-amd-instinct-mi300x-product.jpg（Credit: AMD）*
+
+---
+
 ## 术语表（Glossary）
 
 > 报告正文涉及的英文缩写速查。行业术语与技术指标给出英文全称与简单解释；项目内部编码附后。

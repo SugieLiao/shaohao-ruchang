@@ -6,6 +6,24 @@
 
 ---
 
+## 实物速览（配图）
+
+> 本节为**直观认识**服务——看实物理解产品形态、结构与工作环境。图注均标注来源，仅作研究参考；技术关系与传导路径仍以正文 Mermaid 图与表格为准。
+
+![索尔思光电 800G OSFP 光模块实物（正面）](assets/node-005-800g-osfp-module.jpg)
+
+*图 1｜**产品本体**：Source Photonics（索尔思光电）800G OSFP 光模块实物照——型号 SPQ2-8E2-8FO-COA-FB1（OSFP 2×400G FR4，IEEE 802.3ck，3km），紫色拉环、金属散热壳体、尾部金手指电接口。对应 Node 中「oDSP 的载体：光模块整机形态」环节——oDSP 是这张模块 BOM 里单一价值最大的芯片（25-40%），图中整个金属壳体内部装的就是「DSP + 光收发组件 + 电源芯片」这套电端核心。来源：充电头网《拆解报告：SP索尔思光电800G OSFP光模块SPQ2-8E2-8FO-COA-FB1》，2026-08-21，https://www.chongdiantou.com/archives/1787297030739.html（Credit: 充电头网 实拍拆解）*
+
+![索尔思 800G 模块拆解：Marvell CD822 oDSP 与光纤尾纤特写](assets/node-005-marvell-cd822-dsp.jpg)
+
+*图 2｜**结构示意（拆解实拍）**：同一模块开壳后的 PCB 正面特写——左侧带金属散热顶盖、丝印「MARVELL CD822CAO-FF130AG」的芯片即 Marvell Spica Gen2 系列 MV-CD822 oDSP（5nm 工艺、8×100G PAM4 光通道，支持 1×800G/2×400G/8×100G 拆分），右侧经光纤尾纤连至双工 LC 光收发组件，全板发热器件填充蓝色导热胶。对应 Node 中「800G→5nm 制程映射」与「DSP 是光模块电端唯一'大脑'」环节——一眼可见一颗 DSP 占掉 PCB 中心区域的大半价值。来源：同图 1，充电头网拆解报告，2026-08-21（Credit: 充电头网 实拍拆解）*
+
+![Marvell 1.6T PAM4 DSP 演示模块（实验室实拍）](assets/node-005-marvell-optics-lab.jpg)
+
+*图 3｜**工作环境**：Marvell 1.6T PAM4 DSP 演示模块实拍——OSFP 封装、银色壳体，标签印「MARVELL 1.6T PAM4 DSP / MV CDUL258-102-GA2F / Class 1 Laser Product」，模块插接光纤跳线置于实验室蓝色防静电垫上，背景为测试板与仪器。对应 Node 中「速率迭代：800G→1.6T（Nova/Ara，3nm）」环节——1.6T DSP 是 2026-2028 供给最紧、缺口最大的代际（3nm 产能约束）。来源：ServeTheHome 实验室实拍（初步判定，具体文章 URL 待补）；器件为 Marvell 1.6T PAM4 DSP 演示模块（Credit: ServeTheHome，来源存疑）*
+
+---
+
 ## 术语表
 
 ### 行业术语

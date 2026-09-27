@@ -6,6 +6,24 @@
 
 ---
 
+## 实物速览（配图）
+
+> 本节为**直观认识**服务——看实物理解产品形态、结构与工作环境。图注均标注来源，仅作研究参考；技术关系与传导路径仍以正文 Mermaid 图与表格为准。
+
+![AMD Instinct MI300X OAM 加速模组（散热器移除态，官方产品图）](assets/node-006-amd-instinct-mi300x-card.jpg)
+
+*图 1｜**产品本体**：AMD Instinct MI300X OAM 加速模组官方产品图——散热器移除后可见模组中央的中介层合封区：中央为多颗计算 die（Chiplet）与两侧成组的 HBM3 堆叠共封于一块硅中介层上，背后为鳍片散热器与均热板。MI300X 于 2023-12-06 发布（CDNA 3 架构、192GB HBM3），是「通用 GPU 阵营 + Chiplet 多裸片架构」的代表作。对应 Node 中「GPU 阵营代表产品」与「上游依赖：HBM（NODE-001）+ 先进封装（CoWoS/2.5D）」环节。注意：此为 AMD 官方白底产品图（渲染级产品照），非现场实拍。来源：AMD 官网 Instinct MI300X 产品页/官方新闻稿（2023-12-06 发布）（Credit: AMD）*
+
+![2.5D CoWoS 封装结构示意：GPU + HBM Stack 共封于中介层与基板](assets/node-006-cowos-2-5d-structure.jpg)
+
+*图 2｜**结构示意**：Lam Research 科普插图，完整剖开 2.5D CoWoS（Chip on Wafer on Substrate）结构——左上为晶圆上的 Chip on Wafer（CoW）工序，放大图中 GPU die 与多组 HBM Stack 并排置于硅中介层上，再装接到绿色高密度基板（Substrate）上。对应 Node 中「上游依赖：先进封装 CoWoS/2.5D」环节——正是这一封装形态决定了 AI 芯片对 HBM（NODE-001）和先进封装产能的刚性绑定，也是国产算力卡在中芯 N+2 之外的第二个物理约束。来源：Lam Research Newsroom《What Is Advanced Packaging? (Semi 101)》，2025-09-04，https://newsroom.lamresearch.com/what-is-advanced-packaging-semi-101（Credit: Lam Research）*
+
+![NVIDIA DGX GB200 NVL72 整机柜（GTC 2024 展台实拍）](assets/node-006-gb200-nvl72-rack.jpg)
+
+*图 3｜**工作环境**：NVIDIA DGX GB200 NVL72 整机柜实拍——GTC 2024 展台现场，120kW 液冷单机柜，正面自上而下为 10 个计算托盘（GB200 超级芯片）、9 层 NVSwitch 交换托盘、底部 8 个计算托盘，共 72 颗 Blackwell GPU 经 NVLink 铜互联组成单一算力域。对应 Node 中「AI 芯片是超节点/智算中心价值量最大单一环节」与下游「整机柜交付形态」环节——计算芯片的最终战场就是这样一个个机柜。来源：ServeTheHome《This is the NVIDIA DGX GB200 NVL72》，Patrick Kennedy 摄，2024-03，https://www.servethehome.com/this-is-the-nvidia-dgx-gb200-nvl72/（Credit: ServeTheHome / Patrick Kennedy）*
+
+---
+
 ## 术语表
 
 ### 行业术语

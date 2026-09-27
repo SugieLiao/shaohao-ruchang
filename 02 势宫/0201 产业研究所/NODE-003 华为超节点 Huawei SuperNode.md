@@ -6,6 +6,24 @@
 
 ---
 
+## 实物速览（配图）
+
+> 本节为**直观认识**服务——看实物理解产品形态、结构与工作环境。图注均标注来源，仅作研究参考；技术关系与传导路径仍以正文 Mermaid 图与表格为准。
+
+![昇腾950超节点 Atlas 950 SuperPoD 真机（WAIC 2026 展台）](assets/node-003-atlas-950-supernode.jpg)
+
+*图 1｜**产品本体（超节点整机柜阵列）**：华为官方新闻图，昇腾950超节点（Atlas 950 SuperPoD）真机于 2026 世界人工智能大会（WAIC）首次公开亮相——一整面由数十个标准机柜拼接的超节点机柜阵列，机柜上部标有「计算 Compute」与「灵衢 UnifiedBus」分区标识，屏幕标注其三项核心指标：256TB 统一内存编址、1024 卡超大规模、3μs RTT 时延。这张图对应 Node 中「超节点 = 把成百上千张算力卡用高速互联协议熔成一台『逻辑计算机』」的物理形态：所谓超节点，落地就是这一整排通过灵衢互联（柜间全光互联）组成统一内存空间的机柜。来源：华为官网新闻《昇腾950超节点真机亮相2026世界人工智能大会》（2026-07-17，https://www.huawei.com/cn/news/2026/7/atlas-950-superpod/ ，Credit: Huawei）。*
+
+![Atlas 350 加速卡实物（昇腾950PR 标卡）](assets/node-003-atlas-350-card.jpg)
+
+*图 2｜**产品本体（昇腾计算模组 / 标卡）**：央广网记者摄于华为中国合作伙伴大会 2026 展台，搭载全新昇腾 950PR 处理器的 AI 训练推理加速卡 **Atlas 350** 实物——银灰色金属外壳标卡（295mm 长 × 34mm 宽 × 137mm 高），PCIE x16 金手指接口，壳面印华为菊花 Logo 与几何线条，展牌标注 800 TFLOPS FP8、112GB 片上 HBM、1.4TB/s 显存带宽、600W 功耗、PCLe x16。这是「昇腾芯片 → 计算模组」的真实交付形态：超节点机柜里插的正是这种标卡（Atlas 950 SuperPoD 首发支持标卡与超节点服务器两种形态），单卡算力约为英伟达 H20 的 2.87 倍。来源：央广网科技频道《华为重磅发布新一代算力芯片》（2026-03-22，https://tech.cnr.cn/gstj/20260322/t20260322_527559080.shtml ，摄影：央广网记者，Credit: Huawei / 央广网）。*
+
+![昇腾950 Die 芯片官方渲染图](assets/node-003-ascend-950-die.jpg)
+
+*图 3｜**结构示意（芯片裸片，官方渲染图）**：华为在全联接大会 2025 主题演讲中公布的 **Ascend 950 Die** 官方渲染图（非实物照片）——居中为大面积 SoC 裸片，两侧对称排布多组 HBM 堆栈触点区域。Ascend 950PR 与 950DT 共用这颗 Die，分别与华为自研 HBM（HiBL 1.0 / HiZQ 2.0）合封成整颗芯片：这是 Node 中「华为受制于芯片制造工艺，单颗算力不及英伟达，遂以『自研 Die + 自研 HBM 合封 + 超节点互联』在系统级补齐算力」路线的物理起点——先有这颗 die，才有 1024 卡超节点。来源：华为全联接大会 2025 官方演讲素材（2025-09-18），经 Tom's Hardware 报道转载（https://www.tomshardware.com/tech-industry/artificial-intelligence/huawei-ascend-npu-roadmap-examined-company-targets-4-zettaflops-fp4-performance-by-2028-amid-manufacturing-constraints ，Credit: Huawei via Tom's Hardware）。*
+
+---
+
 ## 术语表（Glossary）
 
 ### 行业术语

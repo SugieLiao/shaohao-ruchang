@@ -3,6 +3,24 @@
 > 研究发起：宫主点名「研究 Node：OCS」（2026-08-21）＝批准（部分命中→登记，沿用 NODE-002/003 确立协议）。
 > 本 Node 从 NODE-003 候选关系 REL-007「光互联」范畴中切出——OCS 是光互联大盘中可独立验证的**器件级**环节，其余部分（光模块/CPO）仍留作后续候选。
 
+## 实物速览（配图）
+
+> 本节为**直观认识**服务——看实物理解产品形态、结构与工作环境。图注均标注来源，仅作研究参考；技术关系与传导路径仍以正文 Mermaid 图与表格为准。
+
+![Polatis Series 7000 384×384 端口光电路交换机整机](assets/node-004-polatis-ocs-chassis.jpg)
+
+*图 1｜**产品本体（OCS 整机）**：Polatis（Huber+Suhner 旗下，MEMS 光交换机老牌厂商）官方产品照，Series 7000 **384×384 端口全光交换机（OCS）**——6RU 标准机架式金属机箱，正面密密麻麻排满数排蓝色 LC 光纤适配器端口（合计 384×384 共 768 个光纤端口），右侧为电源/控制模块，面板下方标 SDN Enabled，意味着这台"交换机"没有一块交换芯片，只有光纤进、光纤出，端口间由内部 MEMS 微镜阵列直连光路。这张图让 Node 里「OCS 是一台不读包、不做光电转换、只搬镜子反射光的机器」的说法有了实物参照——它与谷歌自研 Palomar/Apollo OCS 同属 2D MEMS 光交换技术路线，是谷歌早期商用 OCS 的同源形态。来源：Polatis 官网 Series 7000 产品页（https://www.polatis.com/series-7000-384x384-port-software-controlled-optical-circuit-switch-sdn-enabled.asp ，Credit: Polatis / Huber+Suhner）。*
+
+![谷歌 Apollo OCS 内部光路结构示意（双 MEMS 阵列）](assets/node-004-apollo-ocs-optics.jpg)
+
+*图 2｜**结构示意（OCS 内部光路）**：谷歌 Jupiter 论文（SIGCOMM 2022《Jupiter Evolving》）官方插图，Apollo/Palomar OCS 的内部光路结构——信号光（O 波段）从左侧 136 端口光纤准直器阵列（Fiber Collimator Array）进入，经二向色分光镜（Dichroic Splitter）落到第一片 **2D MEMS 微镜阵列（136 镜）**，再反射到第二片 MEMS 阵列，最后从右侧准直器阵列出纤；同时 850nm 注入光源 + 相机模块（Camera Module）构成闭环监控系统，实时校准每面微镜的角度。这正是 Node 中「OCS 用两面二维微镜阵列把任意入纤端口映射到任意出纤端口、毫秒级切换、插损约 2dB」的结构原理图。来源：Google《Jupiter Evolving: Transforming Google's Datacenter Network via Optical Circuit Switches and Software-Defined Networking》SIGCOMM 2022 论文（https://web.stanford.edu/class/cs244/papers/poutievski-sigcomm22.pdf ，Credit: Google / ACM）。*
+
+![谷歌 TPU v4 Pod 机房实景（OCS 部署环境）](assets/node-004-google-tpu-pod-hall.jpg)
+
+*图 3｜**工作环境（OCS 真实部署的机房）**：谷歌 TPU v4 论文（ISCA 2023）官方实景照片，TPU v4 Pod 的机架阵列——每个机架是一个 4×4×4 的 64 芯片「cube」，机架顶部蓝色/黄色光缆密集出纤，通向机架之间的 **Palomar OCS 光交换机**（一个完整 Pod = 64 个 cube 机架 + 48 台 OCS，4096 颗 TPU 芯片靠 OCS 在机架间动态重构 3D Torus 拓扑）。OCS 本体在机架间隙中不易单独辨认（整机形态见图 1），但这张图直观呈现了 OCS 的真实工作环境：它就部署在这些 AI 集群机架之间，用光路替代脊层电交换机，是「机柜间的光配线枢纽」。来源：Google《TPU v4: An Optically Reconfigurable Supercomputer for Machine Learning》ISCA 2023 论文（arXiv:2304.01433，https://arxiv.org/pdf/2304.01433 ，CC BY 4.0，Credit: Google）。*
+
+---
+
 ## 术语表（Glossary）
 
 ### 行业术语

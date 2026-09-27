@@ -6,6 +6,24 @@
 > **来源**：宫主问答「DSP 与 oDSP 什么关系」→ 判定技术大类不构成 Node → 宫主指示单独立 Node
 > **与 NODE-005 的关系**：DSP 为技术大类，oDSP（光互连 DSP）为其子类之一。**二者 Supply Chain 七问六项答案不同 → 各自独立成 Node**，oDSP 内容不并入本 Node（详见 NODE-005 Step 1 Scope 边界）
 
+## 实物速览（配图）
+
+> 本节为**直观认识**服务——看实物理解产品形态、结构与工作环境。图注均标注来源，仅作研究参考；技术关系与传导路径仍以正文 Mermaid 图与表格为准。
+
+![TI TMS320 系列 DSP 封装（LQFP-176，官方渲染图）](assets/node-008-ti-dsp-package.jpg)
+
+*图 1｜**产品本体**：德州仪器 TMS320F28379D（C2000 系列 DSP）的 176 脚 LQFP 封装官方渲染图，正面印有 TI 商标，背面露出散热焊盘——对应 Node 中 DSP"黑方块"封装实物的典型形态（此图为 TI 官网产品渲染图，非实拍照片）。来源：Texas Instruments，ti.com 产品页 TMS320F28379D（2026 年 9 月取图），Credit: Texas Instruments。*
+
+![TI C2000 LaunchPad 开发板](assets/node-008-ti-c2000-launchpad.jpg)
+
+*图 2｜**开发板**：TI LAUNCHXL-F28379D 开发板（C2000 LaunchPad）官方产品照，红色板卡中央即为 TMS320F28379D DSP 芯片，两侧为标准 BoosterPack 扩展插座——对应 Node 中 DSP 生态"开发板/评估模块"一环。来源：Texas Instruments，ti.com 工具页 LAUNCHXL-F28379D（2026 年 9 月取图），Credit: Texas Instruments。*
+
+![TI 高压电机驱动开发套件](assets/node-008-ti-motor-drive-kit.jpg)
+
+*图 3｜**应用场景**：TI TMDSIDDK379D 高压电机驱动开发套件官方产品照，以 TMS320F28379D 为控制核心，板上集成功率级、电解电容与电感——对应 Node 中 DSP 最典型的应用场景之一：电机控制（伺服/变频驱动）。来源：Texas Instruments，ti.com 工具页 TMDSIDDK379D（2026 年 9 月取图），Credit: Texas Instruments。*
+
+---
+
 ## 术语表
 
 | 术语 | 全称 / 英文 | 释义 |

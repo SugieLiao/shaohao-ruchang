@@ -7,6 +7,24 @@
 
 ---
 
+## 实物速览（配图）
+
+> 本节为**直观认识**服务——看实物理解产品形态、结构与工作环境。图注均标注来源，仅作研究参考；技术关系与传导路径仍以正文 Mermaid 图与表格为准。
+
+![前驱体材料实物：Entegris ProE-Vap 固体前驱体安瓿（HfCl4）](assets/node-002-precursor-ampoule-hfcl4.jpg)
+
+*图 1｜**产品本体（前驱体实物容器）**：Entegris（英腾格）官方产品照，ProE-Vap® 300 固体前驱体输运系统的**不锈钢安瓿（ampoule）**实物——圆柱形不锈钢筒体 + 顶部法兰（多颗螺栓密封）+ 阀组管路接口，瓶身贴 GHS 危险品标识与「DANGER」声明，标签明示内装物为 **HfCl4（四氯化铪）**，即高 κ 栅介质／DRAM 字线常用的金属前驱体。这张图对应 Node 中「前驱体不是气体而是分装在专用钢瓶／安瓿中的高纯化学品，需在受控温度下汽化后送进反应腔」这一环节，可直观看到前驱体产品的真实交付形态（而非实验室试剂瓶）。来源：Entegris 官网 ProE-Vap® 300 Delivery System 产品页（https://www.entegris.com/shop/en/USD/products/chemistries/chemical-delivery-systems/solid-chemical-delivery-systems/ProE-Vap-300-Delivery-System/p/ProEVap300DeliverySystem），图片 CDN：entegris.scene7.com/is/image/entegris/product-proevap300deliverysystem-1（Credit: Entegris, Inc.；产品页数据表标注更新日期 2025-03-01）*
+
+![ALD 薄膜沉积量产机台：ASM Eagle XP8 PEALD 整机](assets/node-002-ald-tool-eagle-xp8.jpg)
+
+*图 2｜**工作环境（沉积设备）**：ASM International 官方机台产品照，Eagle® XP8 等离子体增强原子层沉积（PEALD）300mm 量产平台整机外观——白色主机塔身、正面 3 组 FOUP 晶圆载具接口（橙色晶圆盒）、操作触控屏与下方式控制柜。XP8 为模块化集群架构，最多可挂 4 组双腔模块（DCM，合计 8 个独立反应腔），是逻辑／存储先进节点介质薄膜（SiO₂、SiN、金属氧化物等）的主流 ALD 量产机台。这张图对应 Node 中「前驱体最终在 ALD 反应腔内以脉冲方式交替通入、自限制成膜」的装备环节，说明前驱体的下游客户就是这类沉积设备与拥有它们的晶圆厂。来源：ASM 官网 Eagle XP8 PEALD 产品页（https://www.asm.com/our-technology-products/ald/eagle-xp8），图片：https://www.asm.com/media/ofrehggx/xp8.png（Credit: ASM International N.V.）*
+
+![前驱体成膜位置示意：高κ栅介质等前驱体层在晶体管结构中的位置](assets/node-002-precursor-layers-structure.jpg)
+
+*图 3｜**结构示意**：Entegris 官方技术图文《Working with Solid Precursors in Deposition》中的标注示意图（矢量插画，非实物照片）——左侧为晶体管结构，标注 **Source（源）／Gate（栅）／Drain（漏）**，红线引出右侧虚线框 **Precursor Layers（前驱体层）**，即由固体前驱体经 ALD/CVD 沉积形成的高 κ 栅介质、金属栅／字线与低阻金属薄膜所处的位置。这张图直接回答 Node 的核心问题「前驱体到底沉积成什么、用在哪里」——前驱体不是一个孤立材料品类，而是先进逻辑与存储器件中多层功能薄膜的源头化学品；图下原文亦点明固体前驱体需在较低温度下实现高流量稳定输送、同时抑制污染。来源：Entegris 官方 Pictogram《Working with Solid Precursors in Deposition》（https://www.entegris.com/en/home/resources/reference-materials/pictograms/pictogram-working-with-solid-precursors-in-deposition-12233.html ，PDF 下载加 ?download=1），文件编号 9000-12233FRA-1122，©2022 Entegris, Inc.（Credit: Entegris, Inc.）*
+
+---
+
 ## 术语表（Glossary）
 
 > 报告正文涉及的英文缩写速查。行业术语与技术指标给出英文全称与简单解释；项目内部编码附后。
