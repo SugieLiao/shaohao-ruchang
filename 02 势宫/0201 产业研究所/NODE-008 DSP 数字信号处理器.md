@@ -418,3 +418,4 @@ flowchart LR
 | 2026-09-28 | 关系 | 配图按宫主新口径打右上角角标：图 1（TMS320F28379D LQFP-176 封装）标「官方渲染图」；该图原为产品本体位，角标明示非实拍以免误读为实物照 | 《实物速览（配图）》 | 无实质影响（图注口径） | — |
 | 2026-09-28 | 公告 | 近 3 日无实质命中：复核仅见国芯科技 DSP 出货 13.61 万颗的同源二次传播，与 EVD-193 属同一事实，来源升级不新建 | —（正文不动） | 无实质影响 | EVD-193（同源复核） |
 | 2026-10-01 | 产品 | 全环节配 AI 技术说明信息图并就近插入：Step1 Scope / Step2 System Change / Step3 Supply Chain / Step4 BOM / Step5 Value Chain / Step6 Scarce Layer / Step7 Profit Pool / Step8 Profit Migration / Step11 Ranking / Step12 Failure；Step9 公司宇宙保持 Markdown 表格（IMG-110~119，AI 生成示意图，非实物；以正文为准） | 各 Step 就近插入技术说明图解 | 确认 | IMG-110~119 |
+| 2026-10-01 | 新闻 | 近3日无实质命中（Cadence Tensilica HiFi iQ为音频DSP新品，与Node主题弱相关，列待观察） | 第五节证据索引 | 无实质影响 | 无 |
