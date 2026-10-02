@@ -432,3 +432,4 @@ flowchart LR
 | 2026-09-28 | 产品 | 云栖大会：2032 年全球数据中心规模超 20GW；真武 V900 明确 2027Q1 量产（同源二次确认）；磐久 AL64/AL144 SNPO 光互连超节点，AL144 单柜 144 卡、二级光互连扩至 10368 卡，首次把单一 ScaleUp 域推到万卡级 | 第五节证据索引（需求侧 + 形态） | 强化 | EVD-207（真武 V900 部分与 EVD-138 同源，时间锚二次确认） |
 | 2026-10-01 | 产品 | 全环节配 AI 技术说明信息图并就近插入：Step1 Scope / Step2 System Change / Step3 Supply Chain / Step4 BOM / Step5 Value Chain / Step6 Scarce Layer / Step7 Profit Pool / Step8 Profit Migration / Step11 Ranking / Step12 Failure；Step9 公司宇宙改 Markdown 表格（IMG-090~099，AI 生成示意图，非实物；以正文为准） | 各 Step 就近插入技术说明图解 | 确认 | IMG-090~099 |
 | 2026-10-01 | 数据 | 国产AI芯片首轮集体涨价：昇腾950DT上调至25万+（20-50%）、思元690上调20-30%，源头HBM紧缺成本传导 | 第五节证据索引（成本/定价侧） | 强化 | EVD-229 |
+| 2026-10-02 | 新闻 | 近3日无实质命中（WebSearch复核：仅市场面/旧闻，涨价潮已由EVD-229覆盖） | 第五节证据索引 | 无实质影响 | 无 |

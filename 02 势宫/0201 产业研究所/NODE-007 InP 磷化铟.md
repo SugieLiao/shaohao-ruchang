@@ -434,3 +434,4 @@ flowchart LR
 | 2026-09-28 | 研报 | 华福证券周报：Coherent 两年 4 倍扩产并锁 6 寸衬底、发布 PhotonLink（InP 激光器累计出货超 3 亿颗），Lumentum EML/CW/泵浦全面紧缺，AXT 预计 2027 年底产能再翻倍，住友 FY28 提至 FY24 的 3 倍；大庆溢泰（非上市）规划 2027 年 75 万片 | 第五节证据索引（供给侧） | 强化 | EVD-213 / EVD-214（溢泰为非上市新实体，进待裁决队列） |
 | 2026-10-01 | 产品 | 全环节配 AI 技术说明信息图并就近插入：Step1 Scope / Step2 System Change / Step3 Supply Chain / Step4 BOM / Step5 Value Chain / Step6 Scarce Layer / Step7 Profit Pool / Step8 Profit Migration / Step11 Ranking / Step12 Failure；Step9 公司宇宙改 Markdown 表格（IMG-100~109，AI 生成示意图，非实物；以正文为准） | 各 Step 就近插入技术说明图解 | 确认 | IMG-100~109 |
 | 2026-10-01 | 数据 | InP产能扩张潮：Lumentum英国厂2027Q2投产/云南锗业45万片2027-10满产/Coherent获美商务部5000万美元/JX投1200亿日元扩7-10倍/博通扩3倍+/Sivers扩至1亿只 | 第五节证据索引（供给侧绝对值） | 强化 | EVD-230 |
+| 2026-10-02 | 新闻 | 近3日无实质命中（WebSearch复核：云南锗业45万片=EVD-230已覆盖，其余为市场面） | 第五节证据索引 | 无实质影响 | 无 |

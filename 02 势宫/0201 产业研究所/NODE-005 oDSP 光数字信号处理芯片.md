@@ -473,3 +473,4 @@ flowchart LR
 | 2026-09-28 | 研报 | 高盛 9 月上调光模块 2026-2028 出货 21%/31%/31%（1.6T 及以上 29%/61%/50%），同时自测 2028 年 CPO 渗透率仅 29% 并减持中际旭创 H 股；野村 9/22 专家会另一版转述称 2027 年缺口「较 2026 年收窄」，与 EVD-132「缺口扩大至逾 2000 万颗」方向相反 | 第五节证据索引（需求侧） | 强化（含并列项） | EVD-211 / EVD-212（登记并列 C-15）；EVD-189 同源升级（Credo FY27Q1 光 DSP 创纪录营收） |
 | 2026-10-01 | 产品 | 全环节配 AI 技术说明信息图并就近插入：Step1 Scope / Step2 System Change / Step3 Supply Chain / Step4 BOM / Step5 Value Chain / Step6 Scarce Layer / Step7 Profit Pool / Step8 Profit Migration / Step11 Ranking / Step12 Failure；Step9 公司宇宙改 Markdown 表格（IMG-080~089，AI 生成示意图，非实物；以正文为准） | 各 Step 就近插入技术说明图解 | 确认 | IMG-080~089 |
 | 2026-10-01 | 产品 | Credo CIOE媒体交流会：Credo 2.0全域互联（ZeroFlap AEC 7m/microLED光缆30m/光收发2km），制程下沉解产能困局 | 第五节证据索引（需求侧） | 强化 | EVD-228 |
+| 2026-10-02 | 新闻 | 近3日无实质命中（Credo CIOE=EVD-228同源二次传播） | 第五节证据索引 | 无实质影响 | 无 |

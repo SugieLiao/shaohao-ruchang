@@ -432,3 +432,4 @@ flowchart LR
 | 2026-09-29 | 关系 | 宫主裁定水晶光电（002273）纳入受益侧A股映射表（基于EVD-220公司A级确认CPO用TGV玻璃基板+波导布局） | Step 11受益侧列表 + Alpha映射链（11→12家） | 确认 | EVD-221 |
 | 2026-10-01 | 产品 | 全环节配 AI 技术说明信息图并就近插入：Step1 Scope / Step2 System Change / Step3 Supply Chain / Step4 BOM / Step5 Value Chain / Step6 Scarce Layer / Step7 Profit Pool / Step8 Profit Migration / Step11 Ranking / Step12 Failure；Step9 公司宇宙改 Markdown 表格（IMG-120~129，AI 生成示意图，非实物；以正文为准） | 各 Step 就近插入技术说明图解 | 确认 | IMG-120~129 |
 | 2026-10-01 | 关系 | 群创切入英伟达/谷歌CPO供应链：与康宁联合开发Glass Bridge玻璃光通道技术 | 第五节证据索引（受益侧·新主体） | 强化 | EVD-232 |
+| 2026-10-02 | 新闻 | 近3日无实质命中（WebSearch复核：群创CPO=EVD-232已覆盖，康宁Glass Bridge为旧闻） | 第五节证据索引 | 无实质影响 | 无 |
