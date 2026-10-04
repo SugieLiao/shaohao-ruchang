@@ -462,3 +462,4 @@ flowchart LR
 | 2026-10-01 | 产品 | 全环节配 AI 技术说明信息图并就近插入：Step1 Scope / Step2 System Change / Step3 Supply Chain / Step4 BOM / Step5 Value Chain / Step6 Scarce Layer / Step7 Profit Pool / Step8 Profit Migration / Step11 Ranking / Step12 Failure；Step9 公司宇宙改 Markdown 表格（IMG-070~079，AI 生成示意图，非实物；以正文为准） | 各 Step 就近插入技术说明图解 | 确认 | IMG-070~079 |
 | 2026-10-01 | 公告 | 腾景科技89家机构调研：MEMS/液晶/压电陶瓷多元OCS元组件布局，YVO4晶体量产、二维准直器阵列小批量交付 | 第五节证据索引（供应链侧） | 强化 | EVD-227 |
 | 2026-10-02 | 技术 | 上海交大/浦津实业 OCS 控制硬件及集中式光路控制系统专利 | 第五节证据索引（控制面环节） | 强化 | EVD-234 |
+| 2026-10-04 | 新闻 | 降级复核：OCS 侧复核均为 8 月旧闻或已覆盖（EVD-161/227/234），无近 3 日新事实 | 更新日志 | 无实质影响 | - |

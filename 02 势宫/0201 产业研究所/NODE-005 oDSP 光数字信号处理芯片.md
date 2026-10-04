@@ -474,3 +474,4 @@ flowchart LR
 | 2026-10-01 | 产品 | 全环节配 AI 技术说明信息图并就近插入：Step1 Scope / Step2 System Change / Step3 Supply Chain / Step4 BOM / Step5 Value Chain / Step6 Scarce Layer / Step7 Profit Pool / Step8 Profit Migration / Step11 Ranking / Step12 Failure；Step9 公司宇宙改 Markdown 表格（IMG-080~089，AI 生成示意图，非实物；以正文为准） | 各 Step 就近插入技术说明图解 | 确认 | IMG-080~089 |
 | 2026-10-01 | 产品 | Credo CIOE媒体交流会：Credo 2.0全域互联（ZeroFlap AEC 7m/microLED光缆30m/光收发2km），制程下沉解产能困局 | 第五节证据索引（需求侧） | 强化 | EVD-228 |
 | 2026-10-02 | 新闻 | 近3日无实质命中（Credo CIOE=EVD-228同源二次传播） | 第五节证据索引 | 无实质影响 | 无 |
+| 2026-10-04 | 新闻 | 降级复核：Marvell/博通 oDSP 均为 OFC/旧闻（9/25 获奖无实质），裕太微半年报旧闻 | 更新日志 | 无实质影响 | - |

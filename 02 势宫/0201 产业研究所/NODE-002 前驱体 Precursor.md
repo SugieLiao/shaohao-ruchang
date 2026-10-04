@@ -497,3 +497,4 @@ Scarce Layer（高端金属前驱体 铪/钼/钴 > 上游高纯金属 铪/锆 > 
 | 2026-10-01 | 产品 | 全环节配 AI 技术说明信息图并就近插入：Step1 Scope / Step2 System Change / Step3 Supply Chain / Step4 BOM / Step5 Value Chain / Step6 Scarce Layer / Step7 Profit Pool / Step8 Profit Migration / Step11 Ranking / Step12 Failure（Step9 公司宇宙多公司不配图、Step10 证据罗列不配；IMG-050~059，AI 生成示意图，非实物；以正文为准） | 各 Step 就近插入技术说明图解 | 确认 | IMG-050~059 |
 | 2026-10-01 | 新闻 | 近3日无实质命中（华泰XR研报主体非前驱体链，未纳入） | 第五节证据索引 | 无实质影响 | 无 |
 | 2026-10-02 | 新闻 | 近3日无实质命中（WebSearch复核确认） | 第五节证据索引 | 无实质影响 | 无 |
+| 2026-10-04 | 新闻 | 降级复核：近 3 日无实质命中（半年报/业绩会等旧闻） | 更新日志 | 无实质影响 | - |

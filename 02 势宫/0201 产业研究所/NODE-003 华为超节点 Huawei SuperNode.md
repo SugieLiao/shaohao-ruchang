@@ -549,3 +549,5 @@ flowchart LR
 | 2026-10-01 | 产品 | 全环节配 AI 技术说明信息图并就近插入：Step1 Scope / Step2 System Change / Step3 Supply Chain / Step4 BOM / Step5 Value Chain / Step6 Scarce Layer / Step7 Profit Pool / Step8 Profit Migration / Step11 Ranking / Step12 Failure（Step9 公司宇宙为多公司列表不配图、Step10 证据分级不配；IMG-060~069，AI 生成示意图，非实物；以正文为准） | 各 Step 就近插入技术说明图解 | 确认 | IMG-060~069 |
 | 2026-10-01 | 新闻 | 超节点落地商用=EVD-223同源二次传播（中国电信昇腾950DT液冷1024，已登记9/30）；算力网入PSL为D级聚合简报，暂不采 | 第五节证据索引 | 无实质影响 | EVD-223同源 |
 | 2026-10-02 | 事件 | 昇腾950落户青浦同日上海启动'安芯'工程（电力基建配套） | 第五节证据索引（需求侧基建配套） | 强化 | EVD-235 |
+| 2026-10-04 | 新闻 | 4 条候选全部同源已覆盖（EVD-151 AL128 / EVD-223 昇腾950 / EVD-235 安芯工程），无新事实 | 更新日志 | 无实质影响 | - |
+| 2026-10-04 | 技术 | 互引（cross）：DeepSeek 开源昇腾工具链（EVD-237 主挂 NODE-006），昇腾软件生态受益方 | 更新日志 | 待观察 | EVD-237 |
